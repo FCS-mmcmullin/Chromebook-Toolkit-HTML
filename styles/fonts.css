@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Libre Barcode 39 Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/LibreBarcode39Text-Regular.ttf');
+  }
+
+.barcode
+{
+    font-family: 'Libre Barcode 39 Text';
+    font-size: 65px;
+    color: black;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
