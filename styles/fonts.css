@@ -5,7 +5,7 @@
     src: url('fonts/LibreBarcode39Text-Regular.ttf');
   }
 
-.barcode
+.barcode, .barcode *
 {
     font-family: 'Libre Barcode 39 Text';
     font-size: 65px;
