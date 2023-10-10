@@ -8,27 +8,27 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
 
-    <body>
-        <div class="infoholder">
-            <div class="title">Chromebook Information</div>
-        </div>
+    
+    <div style="display: grid;grid-template-columns: min-content 1fr; height:100%;grid-template-rows: min-content 1fr;">
+        <header>
+            Chromebook Information
+        </header>
+        <nav>
+            <a href="pages/info.html" target="page" id="menu_home">Info</a>
+            <a href="pages/webcam.html" target="page" id="menu_webcam">Webcam</a>
+            <a href="pages/microphone.html" target="page" id="menu_microphone">Microphone</a>
+            <a href="pages/keyboard.html" target="page" id="menu_keyboard">Keyboard</a>
+        </nav>
+        <main>
+            <iframe name="page" frameborder="0" src="pages/info.html"></iframe>
+        </main>
+    </div>
 
-        <div class="infoholder">
-            <div class="header">Serial Number Barcode</div>
-            <div class="barcode">*<span id="chromebook_sn_barcode"></span>*</div>
-        </div>
-        
-
-        <div class="infoholder">
-            <div class="header">Device Information</div>
-            <div>Serial Number: <span id="chromebook_sn">??</span></div>
-            <div>Asset ID: <span id="chromebook_assetid">??</span></div>
-            <div>Annotated User: <span id="chromebook_user">??</span></div>
-            <div>Annotated Location: <span id="chromebook_location">??</span></div>
-            <div>Directory Device ID: <span id="chromebook_deviceid">??</span></div>
-        </div>
-        <div id="versionHolder"></div>
-
-        <script src="index.js"></script>
+    <div id="closeButtonHolder"><a href="javascript:window.close();"><img src="images/close_button.png" /></a></div>
+    
+    <div id="versionHolder">version</div>
+    
+    <script src="index.js"></script>
+    
     </body>
 </html>

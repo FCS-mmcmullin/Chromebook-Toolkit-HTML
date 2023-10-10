@@ -1,11 +1,19 @@
-@font-face {
-    font-family: 'Libre Barcode 39 Text';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/LibreBarcode39Text-Regular.ttf');
-  }
+@font-face
+{
+  font-family: 'Libre Barcode 39 Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/LibreBarcode39Text-Regular.ttf');
+}
 
-.barcode, .barcode *
+.header
+{
+  font-weight: bold;
+  border-bottom: 1px solid #666666;
+  margin-bottom: 10px;
+}
+
+.barcode
 {
     font-family: 'Libre Barcode 39 Text';
     font-size: 65px;
@@ -13,5 +21,5 @@
     background-color: white;
     width: fit-content;
     margin: 0 auto;
+    padding: 5px;
 }
-

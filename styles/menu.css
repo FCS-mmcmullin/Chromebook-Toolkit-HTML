@@ -1,0 +1,37 @@
+
+  
+nav a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    text-decoration: none; /* Remove underline from links */
+    width:200px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    text-indent: 40px;
+}
+  
+nav a:hover {
+    background-color: #a7d3ff; /* Dark grey background on mouse-over */
+}
+
+
+#menu_home
+{
+    background-image: url("../images/icons/info.png");
+}
+#menu_webcam
+{
+    background-image: url("../images/icons/webcam.png");
+}
+#menu_microphone
+{
+    background-image: url("../images/icons/microphone.png");
+}
+#menu_keyboard
+{
+    background-image: url("../images/icons/keyboard.png");
+}

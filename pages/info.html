@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>Chromebook Information</title>
+      <link rel="stylesheet" href="../styles/fonts.css" />
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+  </head>
+  <body>
+
+    <div class="infoholder">
+      <div class="header">Serial Number Barcode</div>
+      <div style="background-color: #333333;padding: 20px;">
+        <div class="barcode">*<span id="chromebook_sn_barcode">test</span>*</div>
+      </div>
+    </div>
+
+    <br />
+    <div class="infoholder">
+        <div class="header">Device Information</div>
+        <div>Serial Number: <span id="chromebook_sn">??</span></div>
+        <div>Asset ID: <span id="chromebook_assetid">??</span></div>
+        <div>Annotated Location: <span id="chromebook_location">??</span></div>
+        <div>Directory Device ID: <span id="chromebook_deviceid">??</span></div>
+    </div>
+
+    <script src="info.js"></script>
+  </body>
+</html>

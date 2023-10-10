@@ -1,0 +1,98 @@
+.keyboard
+{
+    background-color: #4F4F4F;
+    border:2px solid #2e2d2d;
+    border-radius: 20px;
+    padding: 10px 10px 15px 10px;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.rowF
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 5px;
+    padding-bottom: 10px;
+}
+.rowKeys
+{
+    display: grid;
+    grid-template-columns: repeat(28, 1fr);
+    grid-template-rows: repeat(10, 20px);
+    column-gap: 3px;
+    row-gap: 10px;
+}
+
+.key
+{
+    color: white;
+    background-color: #42413C;
+    border:1px solid #2e2d2d;
+    height: 100%;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: inset 0.1em 0.1em 0.1em 0 rgba(255,255,255,0.15), inset -0.1em -0.1em 0.1em 0 rgba(0,0,0,0.15);
+    
+}
+
+.pressed
+{
+    border:1px solid #ffffff66;    
+    color: black;
+    background-color: #48abe0;
+    box-shadow: inset 0.1em 0.1em 0.1em 0 rgba(0,0,0,0.15),
+     inset -0.1em -0.1em 0.1em 0 rgba(255,255,255,0.15),
+     0 0 5px 1px #48abe0;
+}
+
+.released
+{
+
+    color: black;
+    background-color: #48abe0;
+}
+
+.span1x2
+{
+    grid-row: span 2;
+}
+
+.span26
+{
+    grid-column: span 26;
+}
+
+.span2
+{
+    grid-column: span 2;
+}
+
+.span2x2
+{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.span3x2
+{
+    grid-row: span 2;
+    grid-column: span 3;
+}
+
+.span4x2
+{
+    grid-row: span 2;
+    grid-column: span 4;
+}
+
+.span10x2
+{
+    grid-row: span 2;
+    grid-column: span 10;
+}
