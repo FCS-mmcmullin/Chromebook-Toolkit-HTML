@@ -15,4 +15,9 @@ function onRecieveExtensionVersion(value)
   extension_version.textContent = value;
 }
 
+function restart()
+{
+  sendExtensionMessage("restart");
+}
+
 sendExtensionMessage("getExtensionVersion", onRecieveExtensionVersion);
