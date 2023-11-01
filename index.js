@@ -1,5 +1,5 @@
-//const STATIC_EXTENSION_ID = 'oibbgeingpoelpkhjokoihlkmfkcfinm'; 
-const STATIC_EXTENSION_ID = 'oomloaccipelccklgnhcfbiladadkbhp';
+const STATIC_EXTENSION_ID = 'ahlofnmnhajbnioaiecojmkgogpfmnkj'; 
+//const STATIC_EXTENSION_ID = 'oomloaccipelccklgnhcfbiladadkbhp';
 
 const extension_version = document.getElementById('versionHolder');
 

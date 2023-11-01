@@ -23,6 +23,10 @@ nav a:hover {
 {
     background-image: url("../images/icons/info.png");
 }
+#menu_audio
+{
+    background-image: url("../images/icons/audio.png");
+}
 #menu_webcam
 {
     background-image: url("../images/icons/webcam.png");

@@ -9,9 +9,9 @@ header
 {
     height: 80px;
     background-color: white;
-    background-image: url("../images/favicon_64x64.png");
+    background-image: url("../images/header.png");
     background-repeat: no-repeat;
-    background-position: 5px;
+    background-position: 10px;
     grid-column: span 2;
     width:100%;
     font-weight: bold;
@@ -20,6 +20,7 @@ header
     font-size: 42px;
     text-indent: 80px;
     border-bottom:  2px solid #163049;
+    padding-top: 15px;
 }
 
 nav

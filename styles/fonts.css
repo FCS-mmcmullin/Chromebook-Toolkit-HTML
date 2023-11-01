@@ -1,9 +1,9 @@
 @font-face
 {
-  font-family: 'Libre Barcode 39 Text';
+  font-family: 'Libre Barcode 128 Text';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/LibreBarcode39Text-Regular.ttf');
+  src: url('fonts/LibreBarcode128Text-Regular.ttf');
 }
 
 .header
@@ -15,7 +15,7 @@
 
 .barcode
 {
-    font-family: 'Libre Barcode 39 Text';
+    font-family: 'Libre Barcode 128 Text';
     font-size: 65px;
     color: black;
     background-color: white;
