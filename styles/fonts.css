@@ -22,4 +22,6 @@
     width: fit-content;
     margin: 0 auto;
     padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    
 }
