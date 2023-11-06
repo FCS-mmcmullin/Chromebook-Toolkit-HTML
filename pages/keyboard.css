@@ -9,13 +9,15 @@
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
 }
-.rowF
+.rowFKeys
 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 5px;
     padding-bottom: 10px;
 }
+
+
 .rowKeys
 {
     display: grid;
@@ -71,6 +73,10 @@
 .span2
 {
     grid-column: span 2;
+}
+.span3
+{
+    grid-column: span 3;
 }
 
 .span2x2
