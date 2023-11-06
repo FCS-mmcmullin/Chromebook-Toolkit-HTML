@@ -59,6 +59,10 @@
     color: black;
     background-color: #48abe0;
 }
+.released img
+{
+    filter:brightness(15%);
+}
 
 .span1x2
 {
