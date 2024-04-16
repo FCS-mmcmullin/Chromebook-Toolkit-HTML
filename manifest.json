@@ -1,0 +1,24 @@
+{
+    "name": "Chromebook Toolkit",
+    "short_name": "Chromebook Toolkit",
+    "start_url": "./",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "images/favicon_32x32.png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/images/favicon_64x64.png",
+            "sizes": "64x64"
+        }
+        ,
+        {
+            "src": "/images/favicon_256x256.png",
+            "sizes": "256x256"
+        }
+    ],
+    "theme_color": "white",
+    "background_color": "#333",
+    "display": "standalone"
+}
