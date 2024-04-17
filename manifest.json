@@ -5,16 +5,19 @@
     "scope": "/",
     "icons": [
         {
-            "src": "images/favicon_32x32.png",
+            "src": "images/favicon/32x32.png",
             "sizes": "32x32"
         },
         {
-            "src": "/images/favicon_64x64.png",
+            "src": "images/favicon/64x64.png",
             "sizes": "64x64"
-        }
-        ,
+        },
         {
-            "src": "/images/favicon_256x256.png",
+            "src": "images/favicon/128x128.png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/favicon/256x256.png",
             "sizes": "256x256"
         }
     ],
