@@ -5,6 +5,10 @@
     "scope": "/",
     "icons": [
         {
+            "src": "images/favicon/16x16.png",
+            "sizes": "16x16"
+        },
+        {
             "src": "images/favicon/32x32.png",
             "sizes": "32x32"
         },
@@ -19,6 +23,10 @@
         {
             "src": "images/favicon/256x256.png",
             "sizes": "256x256"
+        },
+        {
+            "src": "images/favicon/512x512.png",
+            "sizes": "512x512"
         }
     ],
     "theme_color": "white",
